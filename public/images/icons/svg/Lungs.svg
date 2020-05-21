@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+    <title>Lungs</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="colored" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Medical_sliced" sketch:type="MSLayerGroup" transform="translate(-720.000000, 0.000000)"></g>
+        <g id="Medical" sketch:type="MSLayerGroup" transform="translate(-717.000000, -15.000000)" stroke="#314E55" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <g id="Lungs" transform="translate(720.000000, 20.033748)" sketch:type="MSShapeGroup">
+                <path d="M0.634420879,37.9445725 C0.634420879,41.8089365 -0.796113746,46.4031296 2.68367788,49.5037052 L15.5288049,45.1517072 C17.6259589,44.4411801 19.0696014,42.0953252 18.7609611,39.8969647 C18.7609611,39.8969647 17.1645701,29.3097335 17.1645701,24.9736869 C17.1645701,20.7527045 17.4631945,17.5518319 17.4631945,17.5518319 C17.708108,13.8794533 15.5050202,12.6783883 12.7009886,15.0731376 C12.7009886,15.0731376 0.634420879,22.2190094 0.634420879,37.9445725 Z" id="Oval-255" fill="#E4AD40"></path>
+                <path d="M35.0503901,37.9445725 C35.0503901,41.8089365 33.6198555,46.4031296 37.0996471,49.5037052 L49.9447741,45.1517072 C52.0419281,44.4411801 53.4855706,42.0953252 53.1769303,39.8969647 C53.1769303,39.8969647 51.5805393,29.3097335 51.5805393,24.9736869 C51.5805393,20.7527045 51.8791637,17.5518319 51.8791637,17.5518319 C52.1240772,13.8794533 49.9209894,12.6783883 47.1169578,15.0731376 C47.1169578,15.0731376 35.0503901,22.2190094 35.0503901,37.9445725 Z" id="Oval-255" fill="#E4AD40" transform="translate(44.009881, 31.464771) scale(-1, 1) translate(-44.009881, -31.464771) "></path>
+                <path d="M23.8015555,0 C24.4061656,12.0791169 23.9988818,20.8386669 17.2077382,23.2097918" id="Path-511"></path>
+                <path d="M35.8015555,0 C36.4061656,12.0791169 35.9988818,20.8386669 29.2077382,23.2097918" id="Path-512" transform="translate(32.603869, 11.604896) scale(-1, 1) translate(-32.603869, -11.604896) "></path>
+                <path d="M36.1785305,29.9352567 C34.2095194,26.9612928 30.8338019,25 27,25 C23.0707658,25 19.6227055,27.0601504 17.6770592,30.1592112" id="Oval-255"></path>
+            </g>
+        </g>
+    </g>
+</svg>

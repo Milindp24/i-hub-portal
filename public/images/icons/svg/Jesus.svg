@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+    <title>Jesus</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="colored" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Holidays_sliced" sketch:type="MSLayerGroup" transform="translate(-720.000000, 0.000000)"></g>
+        <g id="Holidays" sketch:type="MSLayerGroup" transform="translate(-715.000000, 3.000000)" stroke="#314E55" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <g id="Jesus" transform="translate(722.000000, 2.000000)" sketch:type="MSShapeGroup">
+                <path d="M4,30.5 C4,30.5 3.5,39 0,43 C-2.49547867e-08,43 3,49.5 14.5,46.5" id="Path-4268" fill="#BD957E"></path>
+                <path d="M43,30.5 C43,30.5 43.5,39 47,43 C47,43 44,49.5 32.5,46.5" id="Path-4268" fill="#C59981"></path>
+                <path d="M28.1514657,49 C35.2230103,45.9435255 41,36.2296729 41,24.7191011 C41,10.7568462 38.5862069,-2.43251112e-15 23.5,0 C8.4137931,2.4948832e-15 6,10.7568462 6,24.7191011 C6,36.2296729 11.7769897,45.9435255 18.8485343,49 L28.1514657,49 Z" id="Oval-1699" fill="#C59981"></path>
+                <path d="M20.88453,41.7678973 C14.1247916,40.3278656 9,33.4069143 9,25.0861952 C9,20.3140563 9.51932682,16.002344 11.6826763,12.9209673 L11.6826763,12.9209673 C12.9209,14.8610246 15.0816016,16.1459849 17.54,16.1459849 C20.0678201,16.1459849 22.280893,14.7874289 23.5,12.7550608 C24.719107,14.7874289 26.9321799,16.1459849 29.46,16.1459849 C31.9183984,16.1459849 34.0791,14.8610246 35.3173237,12.9209673 L35.3173237,12.9209673 C37.4806732,16.002344 38,20.3140563 38,25.0861952 C38,33.4069143 32.8752084,40.3278656 26.11547,41.7678973 L23.5,39.7550608 L20.88453,41.7678973 Z" id="Oval-1700" fill="#E9E7D1"></path>
+                <path d="M41,31 C43.209139,31 45,29.209139 45,27 C45,24.790861 43.209139,23 41,23" id="Oval-1702" fill="#E9E7D1"></path>
+                <path d="M2,31 C4.209139,31 6,29.209139 6,27 C6,24.790861 4.209139,23 2,23" id="Oval-1702" fill="#E9E7D1" transform="translate(4.000000, 27.000000) scale(-1, 1) translate(-4.000000, -27.000000) "></path>
+                <path d="M32,26 C32,24.3431458 30.6568542,23 29,23 C27.3431458,23 26,24.3431458 26,26" id="Oval-1702"></path>
+                <path d="M21,26 C21,24.3431458 19.6568542,23 18,23 C16.3431458,23 15,24.3431458 15,26" id="Oval-1702"></path>
+                <path d="M23,35 C23,35 22.5,34 19.5,34.5 C16.5,35 12.5,38 12.5,38" id="Path-4268"></path>
+                <path d="M34,35 C34,35 33.5,34 30.5,34.5 C27.5,35 23.5,38 23.5,38" id="Path-4268" transform="translate(28.750000, 36.180000) scale(-1, 1) translate(-28.750000, -36.180000) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

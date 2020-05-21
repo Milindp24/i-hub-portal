@@ -17,4 +17,6 @@ Route::get('/', function () {
 
 Route::view('student_registrations','student.registration');
 
+Route::view('login','student.login');
+
 Route::resource('student','StudentController');

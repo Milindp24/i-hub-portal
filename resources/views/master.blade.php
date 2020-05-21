@@ -41,6 +41,76 @@
 
     <link rel="stylesheet" type="text/css" href="//cdn.materialdesignicons.com/5.2.45/css/materialdesignicons.min.css">
 
+    <style>
+        #grad1 {
+            height: 50px;
+            background-image: linear-gradient(to left, rgba(255,0,0,0), rgb(10, 67, 113)); /* Standard syntax (must be last) */
+        }
+
+        .form-title{
+            line-height: 50px;
+            color: #fff !important;
+            padding: 0 15px;
+            font-weight: 500 !important;
+        }
+
+        .intro-form h2{
+            font-family: 'Oswald', sans-serif;
+            text-transform: uppercase;
+            font-size: 32px;
+        }
+
+        .intro-form h3{
+            margin-bottom: 10px;
+        }
+
+        .mdi::before {
+            font-size: 40px;
+            line-height: 44px;
+        }
+
+        .form-control-sm {
+            height: calc(1.5em + .5rem + 2px) !important;
+            font-size: 16px !important;
+        }
+
+        .intro-form input {
+            border: 1px solid #999;
+        }
+
+        .mdi-facebook{
+            color: #1877f2;
+        }
+
+        .mdi-instagram{
+            color: #cd486b;
+        }
+
+        .mdi-linkedin{
+            color: #007bb5;
+        }
+
+        .mdi-twitter{
+            color: #1da1f2;
+        }
+
+        .alert p{
+            margin:0;
+            margin: 0;
+            font-size: 16px;
+            font-weight: 600;
+        }
+
+        .alert {
+            padding: 15px;
+            margin-bottom: 10px;
+        }
+
+        textarea.form-control, .form-control {
+            border: 1px solid #999 !important;
+            font-size: initial;
+        }
+    </style>
 </head>
 
 <body>
@@ -49,8 +119,8 @@
             <!-- Logo container-->
             <div>
                 <a href="index.html" class="logo text-uppercase">
-                    <img src="images/logo-light.png" alt="" class="logo-light" height="38" />
-                    <img src="images/logo-dark.png" alt="" class="logo-dark" height="38" />
+                    <img src="{{ URL::asset('images/i-hub-light.png') }}" alt="" class="logo-light" height="65" />
+                    <img src="{{ URL::asset('images/i-hub.png') }}" alt="" class="logo-dark" height="65" />
                 </a>
             </div>
             <!-- End Logo container-->

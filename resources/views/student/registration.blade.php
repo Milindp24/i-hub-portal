@@ -65,6 +65,11 @@
 		padding: 15px;
 		margin-bottom: 10px;
 	}
+
+	textarea.form-control, .form-control {
+		border: 1px solid #999 !important;
+		font-size: initial;
+	}
 </style>
 <!-- home start -->
 <section class="section bg-sub-page-home">
@@ -212,6 +217,7 @@
                             <label>Course Name</label>
                             <div class="form-group">
                                 <select name="course_name" class="form-control form-control-sm">
+									<option value="" selected=""> -- Select Course Name -- </option>
                                     <option value="1">IT</option>
                                     <option value="2">EC</option>
                                     <option value="3">EE</option>
@@ -269,23 +275,24 @@
                         <div class="col-md-4">
                             <label>Address</label>
                             <div class="form-group">
-                                <textarea class="form-control form-control-sm" name="address" placeholder="Enter your Address"></textarea>
+                                <textarea class="form-control" name="address" rows="2" placeholder="Enter your Address"></textarea>
                             </div>
                         </div>
-                        <div class="col-md-4">
-                            <label>State</label>
-                            <div class="form-group">
-                                <input type="text" name="state" class="form-control form-control-sm" placeholder="Enter State">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
                         <div class="col-md-4">
                             <label>City</label>
                             <div class="form-group">
                                 <input type="text" name="city" class="form-control form-control-sm" placeholder="Enter City">
                             </div>
                         </div>
+                    </div>
+                    <div class="row">
+						<div class="col-md-4">
+                            <label>State</label>
+                            <div class="form-group">
+                                <input type="text" name="state" class="form-control form-control-sm" placeholder="Enter State">
+                            </div>
+                        </div>
+                        
                         <div class="col-md-4">
                             <label>Pincode</label>
                             <div class="form-group">

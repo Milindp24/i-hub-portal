@@ -23,7 +23,8 @@
 </div>
 
 <!-- Start About Area -->
-<section id="about" class="about-area abt-page ptb-80 bg-f6f6f6">
+<!-- about-area  -->
+<section id="about" class="abt-page ptb-80 bg-f6f6f6">
     <div class="container pb-40">
         <div class="section-title">
             <h2>About <span>i-Hub</span></h2>
@@ -153,7 +154,7 @@
                 <div class="single-who-we-are text-center">
                     <h4>Shri Hiranmay Mahanta</h4>
                     <p>CEO – iHub</p>
-                    <span>6</span>
+                    <span>5</span>
                 </div>
             </div>
         </div>

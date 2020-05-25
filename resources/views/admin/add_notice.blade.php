@@ -34,8 +34,8 @@
                                         <label>Notice Type<sup style="color: red">*</sup></label>
                                         <select class="form-control" id="notice_type_id" name="notice_type_id" required>
                                             <option value="" selected disabled>-- Select Event Type --</option>
-                                            <option value="1">Notice 1</option>
-                                            <option value="2">Notice 2</option>
+                                            <option value="1">Public</option>
+                                            <option value="2">Private</option>
                                         </select>
                                     </div>
                                 </div>

@@ -8,25 +8,25 @@
         <meta name="description" content="">
 
         <!-- Bootstrap Min CSS -->
-        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="{{ URL::asset('assets/css/bootstrap.min.css')}}">
         <!-- Font Awesome Min JS -->
-        <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+        <link rel="stylesheet" href="{{ URL::asset('assets/css/font-awesome.min.css')}}">
         <!-- Animate CSS -->
-        <link rel="stylesheet" href="assets/css/animate.css">
+        <link rel="stylesheet" href="{{ URL::asset('assets/css/animate.css')}}">
         <!-- Magnific Popup CSS -->
-        <link rel="stylesheet" href="assets/css/magnific-popup.css">
+        <link rel="stylesheet" href="{{ URL::asset('assets/css/magnific-popup.css')}}">
         <!-- Owl Carousel CSS -->
-        <link rel="stylesheet" href="assets/css/owl.carousel.css">
+        <link rel="stylesheet" href="{{ URL::asset('assets/css/owl.carousel.css')}}">
         <!-- Owl Theme Default CSS -->
-        <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+        <link rel="stylesheet" href="{{ URL::asset('assets/css/owl.theme.default.min.css')}}">
         <!-- Style CSS -->
-        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="{{ URL::asset('assets/css/style.css')}}">
         <!-- Custom CSS -->
-        <link rel="stylesheet" href="assets/css/custom.css">
+        <link rel="stylesheet" href="{{ URL::asset('assets/css/custom.css')}}">
         <!-- Mega Menu CSS -->
-        <link rel="stylesheet" href="assets/css/mega-menu.css">
+        <link rel="stylesheet" href="{{ URL::asset('assets/css/mega-menu.css')}}">
         <!-- Responsive CSS -->
-        <link rel="stylesheet" href="assets/css/responsive.css">
+        <link rel="stylesheet" href="{{ URL::asset('assets/css/responsive.css')}}">
 
         <title>iHub - A Government of Gujarat Initiative</title>
     </head>
@@ -183,80 +183,6 @@
             </div>
         </div>
         
-        <!-- Start Contact Area -->
-        <!-- <section id="contact" class="contact-area ptb-80 bg-f6f6f6">
-            <div class="container">
-                <div class="section-title">
-                    <h4>Get in Touch</h4>
-                    <h2>Let's <span>Contact</span> Us</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                </div>
-                
-                <div class="row">
-                    <div class="col-lg-6 col-md-12">
-                        <div id="map"></div>
-                        
-                        <div class="contact-info">
-                            <ul>
-                                <li><i class="fa fa-map-marker"></i> Exercisplan 4, 111 49 Stockholm, Sweden</li>
-                                <li><i class="fa fa-envelope"></i> <a href="#">addax@gmail.com</a></li>
-                                <li><i class="fa fa-phone"></i> <a href="#">(+124)412-2445515</a></li>
-                                <li><i class="fa fa-fax"></i> <a href="#">617-241-60055</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    
-                    <div class="col-lg-6 col-md-12">
-                        <div class="contact-form">
-                            <h4>Stay Connected</h4>
-                             <form id="contactForm">
-                                <div class="row">
-                                    <div class="col-lg-12 col-md-6">
-                                        <div class="form-group">
-                                            <label for="name">Name</label>
-                                            <input type="text" class="form-control" name="name" id="name" required data-error="Please enter your name">
-                                            <div class="help-block with-errors"></div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-12 col-md-6">
-                                        <div class="form-group">
-                                            <label for="email">Email</label>
-                                            <input type="email" class="form-control" name="email" id="email" required data-error="Please enter your email">
-                                            <div class="help-block with-errors"></div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-12 col-md-12">
-                                        <div class="form-group">
-                                            <label for="number">Phone Number</label>
-                                            <input type="text" class="form-control" name="number" id="number" required data-error="Please enter your number">
-                                            <div class="help-block with-errors"></div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-12 col-md-12">
-                                        <div class="form-group">
-                                            <label for="message">Message</label>
-                                            <textarea name="message" class="form-control" id="message" cols="30" rows="4" required data-error="Write your message"></textarea>
-                                            <div class="help-block with-errors"></div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-12 col-md-12">
-                                        <button type="submit" class="btn btn-primary">Send Message</button>
-                                        <div id="msgSubmit" class="h3 text-center hidden"></div>
-                                        <div class="clearfix"></div>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> -->
-        <!-- End Contact Area -->
-        
         <!-- Start Footer Area -->
         <footer class="footer-area">
             <div class="container">
@@ -313,41 +239,41 @@
         <div class="go-top"><i class="fa fa-angle-up"></i></div>
         
         <!-- JQuery Min JS -->
-        <script src="assets/js/jquery.min.js"></script>
+        <script src="{{ URL::asset('assets/js/jquery.min.js')}}"></script>
         <!-- Popper Min JS -->
-        <script src="assets/js/popper.min.js"></script>
+        <script src="{{ URL::asset('assets/js/popper.min.js')}}"></script>
         <!-- Bootstrap Min JS -->
-        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="{{ URL::asset('assets/js/bootstrap.min.js')}}"></script>
         <!-- Owl Carousel JS -->
-        <script src="assets/js/owl.carousel.min.js"></script>
+        <script src="{{ URL::asset('assets/js/owl.carousel.min.js')}}"></script>
         <!-- Magnific Popup JS -->
-        <script src="assets/js/jquery.magnific-popup.min.js"></script>
+        <script src="{{ URL::asset('assets/js/jquery.magnific-popup.min.js')}}"></script>
         <!-- WayPonits JS -->
-        <script src="assets/js/waypoints.min.js"></script>
+        <script src="{{ URL::asset('assets/js/waypoints.min.js')}}"></script>
         <!-- CounterUp JS -->
-        <script src="assets/js/jquery.counterup.min.js"></script>
+        <script src="{{ URL::asset('assets/js/jquery.counterup.min.js')}}"></script>
         <!-- Mixitup min JS -->
-        <script src="assets/js/jquery.mixitup.min.js"></script>
+        <script src="{{ URL::asset('assets/js/jquery.mixitup.min.js')}}"></script>
         <!-- Jquery Ripples Min JS -->
-        <script src="assets/js/jquery.ripples-min.js"></script>
+        <script src="{{ URL::asset('assets/js/jquery.ripples-min.js')}}"></script>
         <!-- Jquery Particles Min JS -->
-        <script src="assets/js/particles.min.js"></script>
+        <script src="{{ URL::asset('assets/js/particles.min.js')}}"></script>
         <!-- Form Validator Min JS -->
-        <script src="assets/js/form-validator.min.js"></script>
+        <script src="{{ URL::asset('assets/js/form-validator.min.js')}}"></script>
         <!-- Contact Form Min JS -->
-        <script src="assets/js/contact-form-script.js"></script>
+        <script src="{{ URL::asset('assets/js/contact-form-script.js')}}"></script>
         <!-- ajaxChimp Min JS -->
-        <script src="assets/js/jquery.ajaxchimp.min.js"></script>
+        <script src="{{ URL::asset('assets/js/jquery.ajaxchimp.min.js')}}"></script>
         <!-- Map API JS FILES -->
         <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyApghCIIx9MpQhA768sKXxvR_Okg0SF2k4&amp;callback=initMap"></script>
         <!-- Addax Map JS FILE -->
-        <script src="assets/js/addax-map.js"></script>
+        <script src="{{ URL::asset('assets/js/addax-map.js')}}"></script>
         <!-- WoW JS -->
-        <script src="assets/js/wow.js"></script>
+        <script src="{{ URL::asset('assets/js/wow.js')}}"></script>
         <!-- Main JS -->
-        <script src="assets/js/main.js"></script>
+        <script src="{{ URL::asset('assets/js/main.js')}}"></script>
         <!-- Custom JS -->
-        <script src="assets/js/custom.js"></script>
+        <script src="{{ URL::asset('assets/js/custom.js')}}"></script>
     </body>
 
 </html>

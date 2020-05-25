@@ -1,0 +1,8 @@
+.main-color{
+    background: radial-gradient(at 50% -20%, #0070A1, #16113B) fixed;
+}
+
+.side-menu, #sidebar-menu, #sidebar-menu > ul > li > a{
+    color: #fff;
+    background: radial-gradient(at 50% -20%, #0070A1, #16113B) fixed;
+}

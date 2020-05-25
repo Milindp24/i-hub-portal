@@ -2,6 +2,8 @@
 
 namespace App;
 
+use App\Notifications\VerifyEmail;
+
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Foundation\Auth\User as Authenticatable;
@@ -16,7 +18,7 @@ class User extends Authenticatable
      * @var array
      */
     protected $fillable = [
-        'name', 'email', 'password',
+        'name', 'email', 'password','token'
     ];
 
     /**
@@ -33,7 +35,25 @@ class User extends Authenticatable
      *
      * @var array
      */
-    protected $casts = [
-        'email_verified_at' => 'datetime',
-    ];
+    // protected $casts = [
+    //     'email_verified_at' => 'datetime',
+    // ];
+
+    /**
+     * Returns true if user is verified
+     */
+
+    public function verified()
+    {
+        return $this->token === null;
+    }
+
+    /**
+     * Send the user a verification email
+     */
+
+    public function sendVerificationEmail()
+    {
+        $this->notify(new VerifyEmail($this));
+    }
 }
